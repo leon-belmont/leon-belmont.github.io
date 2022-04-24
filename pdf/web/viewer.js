@@ -109,7 +109,7 @@ const defaultOptions = {
     kind: OptionKind.VIEWER + OptionKind.PREFERENCE
   },
   imageResourcesPath: {
-    value: "http://radioback.freevar.com/pdf/web/images/",
+    value: "https://leon-belmont.github.io/pdf/web/images/",
     kind: OptionKind.VIEWER
   },
   maxCanvasPixels: {
@@ -162,7 +162,7 @@ const defaultOptions = {
     kind: OptionKind.API
   },
   cMapUrl: {
-    value: "http://radioback.freevar.com/pdf/web/cmaps/",
+    value: "https://leon-belmont.github.io/pdf/web/cmaps/",
     kind: OptionKind.API
   },
   disableAutoFetch: {
@@ -206,7 +206,7 @@ const defaultOptions = {
     kind: OptionKind.API
   },
   standardFontDataUrl: {
-    value: "http://radioback.freevar.com/pdf/web/standard_fonts/",
+    value: "https://leon-belmont.github.io/pdf/web/standard_fonts/",
     kind: OptionKind.API
   },
   verbosity: {
@@ -218,7 +218,7 @@ const defaultOptions = {
     kind: OptionKind.WORKER
   },
   workerSrc: {
-    value: "http://radioback.freevar.com/pdf/build/pdf.worker.js",
+    value: "https://leon-belmont.github.io/pdf/build/pdf.worker.js",
     kind: OptionKind.WORKER
   }
 };
@@ -232,7 +232,7 @@ const defaultOptions = {
     kind: OptionKind.VIEWER
   };
   defaultOptions.sandboxBundleSrc = {
-    value: "http://radioback.freevar.com/pdf/build/pdf.sandbox.js",
+    value: "https://leon-belmont.github.io/pdf/build/pdf.sandbox.js",
     kind: OptionKind.VIEWER
   };
   defaultOptions.renderer.kind += OptionKind.PREFERENCE;
@@ -3863,7 +3863,7 @@ let pdfjsLib;
 if (typeof window !== "undefined" && window["pdfjs-dist/build/pdf"]) {
   pdfjsLib = window["pdfjs-dist/build/pdf"];
 } else {
-  pdfjsLib = require("http://radioback.freevar.com/pdf/build/pdf.js");
+  pdfjsLib = require("https://leon-belmont.github.io/pdf/build/pdf.js");
 }
 
 module.exports = pdfjsLib;
@@ -15712,7 +15712,7 @@ function getViewerConfiguration() {
     errorWrapper,
     printContainer: document.getElementById("printContainer"),
     openFileInputName: "fileInput",
-    debuggerScriptPath: "http://radioback.freevar.com/pdf/web/debugger.js"
+    debuggerScriptPath: "https://leon-belmont.github.io/pdf/web/debugger.js"
   };
 }
 
