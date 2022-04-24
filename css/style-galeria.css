@@ -1,0 +1,227 @@
+html {
+        margin: 0px; padding: 0px;
+     }
+
+body {
+        margin: 0px; padding: 0px;
+        font-family:Arial, Helvetica, sans-serif;
+        color:#fff;
+        background:#E4E7E1;
+     }
+
+.wrap {
+        position: relative;
+        width:auto;
+        max-width:1280px;
+        margin:0 auto;
+        padding: 0px;
+        }
+
+a,a:link,a:visited,a:hover,a:active {text-decoration:none;}
+
+.PageLogin{
+           width:auto;
+           margin:0 5px 0 5px;
+
+          }
+
+.PagePromocion{
+           width:auto;
+          }
+
+.PagePromocionJuego{
+           width:auto;
+	   	   /*Background: #07C89B;*/
+           border: 1px solid #FF0000;
+           margin:10px  5px 5px 5px;
+           border-radius: 0.4em 0.4em 0.4em 0.4em;
+          -o-border-radius: 0.4em 0.4em 0.4em 0.4em;
+          -moz-border-radius: 0.4em 0.4em 0.4em 0.4em;
+          -webkit-border-radius: 0.4em 0.4em 0.4em 0.4em;
+          }
+
+.PageTitle{
+           width:auto;
+           border-top: 0px;
+           margin:0px  6px 1px 6px;
+
+          }
+
+.logo{
+      padding:10px 0;
+     }
+
+.nivel{
+      padding:0px;
+     }
+
+.logo img{display:block;margin:0 auto;max-width:100%;}
+
+.nivel img{display:block;margin:0 auto;max-width:100%;}
+
+.PageLoginLogo {
+                background-repeat: no-repeat;
+                background-position: 20px center;
+                margin: 5px 0px 8px 10px;
+                padding: 0 3px 10px 0;
+
+               }
+
+.PageLoginLogoText {
+	text-align: justify;
+	padding-left: 1px;
+	padding-right: 1px;
+	padding-top: 15px;
+	line-height: 1.2;
+	font-size: 1.2em;
+	color: #FFFFFF;
+	font-weight : normal;
+}
+
+.menuTarifas{
+
+        padding:0px 10px;
+        font-size:1.2em;
+        }
+
+.respuesta{
+
+        width:auto;
+		text-align: center;
+        padding: 0px;
+        font-size:1.2em;
+		color:#000;
+        }
+
+.pistas{
+
+		letter-spacing: 5px;
+        }
+
+.buttonNormal {
+         background:#234A8B;
+         background-image: -ms-linear-gradient(top, #4FA2E8 0%, #234A8B 100%);
+         background-image: -moz-linear-gradient(top, #4FA2E8 0%, #234A8B 100%);
+         background-image: -o-linear-gradient(top, #4FA2E8 0%, #234A8B 100%);
+         background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #4FA2E8), color-stop(1, #234A8B));
+         background-image: -webkit-linear-gradient(top, #4FA2E8 0%, #234A8B 100%);
+         background-image: linear-gradient(to bottom, #4FA2E8 0%, #234A8B 100%);
+         padding: 0.55em 1em 0.55em;
+         width: auto;
+         text-align: center;
+         color: #ffffff;
+         line-height: 1em;
+         font-size: 1.5em;
+         font-weight: bold;
+         border-radius: 0.2em;
+         border: #4FA2E8;
+         -o-border-radius: 0.2em;
+         -moz-border-radius: 0.2em;
+         -webkit-border-radius: 0.2em;
+        }
+
+.buttonNormalTrivia {
+         background:#8604a7;
+         background-image: -ms-linear-gradient(top, #e276fd 0%, #8604a7 100%);
+         background-image: -moz-linear-gradient(top, #e276fd 0%, #8604a7 100%);
+         background-image: -o-linear-gradient(top, #e276fd 0%, #8604a7 100%);
+         background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #e276fd), color-stop(1, #8604a7));
+         background-image: -webkit-linear-gradient(top, #e276fd 0%, #8604a7 100%);
+         background-image: linear-gradient(to bottom, #e276fd 0%, #8604a7 100%);
+         padding: 0.55em 1em 0.55em;
+         width: auto;
+         text-align: center;
+         color: #ffffff;
+         line-height: 1em;
+         font-size: 1.5em;
+         font-weight: bold;
+         border-radius: 0.2em;
+         border: #e276fd;
+         -o-border-radius: 0.2em;
+         -moz-border-radius: 0.2em;
+         -webkit-border-radius: 0.2em;
+        }
+
+.NivelTiempo {
+         background:#234A8B;
+         background-image: -ms-linear-gradient(top, #4FA2E8 0%, #234A8B 100%);
+         background-image: -moz-linear-gradient(top, #4FA2E8 0%, #234A8B 100%);
+         background-image: -o-linear-gradient(top, #4FA2E8 0%, #234A8B 100%);
+         background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #4FA2E8), color-stop(1, #234A8B));
+         background-image: -webkit-linear-gradient(top, #4FA2E8 0%, #234A8B 100%);
+         background-image: linear-gradient(to bottom, #4FA2E8 0%, #234A8B 100%);
+         padding: 0.55em 1em 0.55em;
+         width: auto;
+         text-align: center;
+         color: #ffffff;
+		 height: 2.1em;
+         line-height: 1em;
+         font-size: 1.5em;
+         font-weight: bold;
+         border-radius: 0.2em;
+         border: #4FA2E8;
+         -o-border-radius: 0.2em;
+         -moz-border-radius: 0.2em;
+         -webkit-border-radius: 0.2em;
+        }
+
+.Pregunta {
+         background:#234A8B;
+         background-image: -ms-linear-gradient(top, #4FA2E8 0%, #234A8B 100%);
+         background-image: -moz-linear-gradient(top, #4FA2E8 0%, #234A8B 100%);
+         background-image: -o-linear-gradient(top, #4FA2E8 0%, #234A8B 100%);
+         background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #4FA2E8), color-stop(1, #234A8B));
+         background-image: -webkit-linear-gradient(top, #4FA2E8 0%, #234A8B 100%);
+         background-image: linear-gradient(to bottom, #4FA2E8 0%, #234A8B 100%);
+         padding: 0.45em 1em 0.45em;
+         width: auto;
+         text-align: center;
+         color: #ffffff;
+         line-height: 1.2em;
+         font-size: 1.5em;
+         font-weight: bold;
+         border-radius: 0.2em;
+         border: #4FA2E8;
+         -o-border-radius: 0.2em;
+         -moz-border-radius: 0.2em;
+         -webkit-border-radius: 0.2em;
+        }
+
+.RespuestaPistas {
+         background:#234A8B;
+         background-image: -ms-linear-gradient(top, #4FA2E8 0%, #234A8B 100%);
+         background-image: -moz-linear-gradient(top, #4FA2E8 0%, #234A8B 100%);
+         background-image: -o-linear-gradient(top, #4FA2E8 0%, #234A8B 100%);
+         background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #4FA2E8), color-stop(1, #234A8B));
+         background-image: -webkit-linear-gradient(top, #4FA2E8 0%, #234A8B 100%);
+         background-image: linear-gradient(to bottom, #4FA2E8 0%, #234A8B 100%);
+         padding: 0.45em 1em 0.45em;
+         width: auto;
+         text-align: center;
+         color: #ffffff;
+         line-height: 1.2em;
+         font-size: 1.5em;
+         font-weight: bold;
+         border-radius: 0.2em;
+         border: #4FA2E8;
+         -o-border-radius: 0.2em;
+         -moz-border-radius: 0.2em;
+         -webkit-border-radius: 0.2em;
+        }
+
+.imagen{
+      padding:0 10px;
+     }
+
+.imagen img{display:block;margin:0 auto;max-width:100%;}
+
+.imagenGaleria{
+      padding:0 10px;
+     }
+
+.imagenGaleria img {
+    max-width: 100%;
+    height: auto;
+	max-height: 100%;
+    width: auto;
+    }
