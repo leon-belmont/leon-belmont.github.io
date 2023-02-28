@@ -238,6 +238,7 @@
   overflow: auto;
   display: block;
   z-index: 999999;
+  color: #000000;
 }
 
 .tribute-container ul {
