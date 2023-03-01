@@ -441,7 +441,7 @@
 	var keyBindings = function(event) {
 		var f = $.jPlayer.focus,
 			ignoreKey;
-
+		/*
 		// A jPlayer instance must be in focus. ie., keyEnabled and the last one played.
 		if(f) {
 			// What generated the key press?
@@ -467,7 +467,7 @@
 					}
 				});
 			}
-		}
+		}*/
 	};
 
 	$.jPlayer.keys = function(en) {
