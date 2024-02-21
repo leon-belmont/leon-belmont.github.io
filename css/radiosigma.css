@@ -869,7 +869,7 @@ pre code {
 .wrap {
   position: relative;
   width: auto;
-  max-width: 640px;
+  max-width: 720px;
   margin: 0 auto;
   padding: 0px;
 }
