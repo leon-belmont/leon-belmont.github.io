@@ -765,8 +765,8 @@
 }
 
 .custom-context-menu {
-  position: absolute; /* O 'fixed' si quieres que no se mueva con el scroll */
-  background-color: #fff;
+  position: absolute;
+  background-color: #212121;
   border: 1px solid #ddd;
   box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
   list-style: none;
