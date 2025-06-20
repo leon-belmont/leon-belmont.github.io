@@ -764,7 +764,7 @@
   text-overflow: ellipsis;
 }
 
-.custom-context-menu {
+.context_menu_control {
   position: fixed; /* O 'fixed' si quieres que no se mueva con el scroll */
   background-color: #212121;
   border-radius: 10px;
@@ -775,17 +775,17 @@
   display: block;
 }
 
-.custom-context-menu li {
+.context_menu_control li {
   padding: 8px 15px;
   cursor: pointer;
   white-space: nowrap;
 }
 
-.custom-context-menu li:hover {
+.context_menu_control li:hover {
   background-color: #f0f0f0;
 }
 
-.custom-context-menu hr {
+.context_menu_control hr {
   border: none;
   border-top: 1px solid #eee;
   margin: 5px 0;
