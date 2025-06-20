@@ -763,3 +763,31 @@
   overflow:hidden;
   text-overflow: ellipsis;
 }
+
+.custom-context-menu {
+  position: absolute; /* O 'fixed' si quieres que no se mueva con el scroll */
+  background-color: #fff;
+  border: 1px solid #ddd;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+  list-style: none;
+  margin: 0;
+  padding: 5px 0;
+  z-index: 1000;
+  display: block;
+}
+
+.custom-context-menu li {
+  padding: 8px 15px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.custom-context-menu li:hover {
+  background-color: #f0f0f0;
+}
+
+.custom-context-menu hr {
+  border: none;
+  border-top: 1px solid #eee;
+  margin: 5px 0;
+}
