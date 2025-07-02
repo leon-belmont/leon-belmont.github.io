@@ -786,7 +786,7 @@
 }
 
 .custom-context-menu li:last-child {
-    border-bottom: none;
+  border-bottom: none;
 }
 
 .custom-context-menu li:hover {
