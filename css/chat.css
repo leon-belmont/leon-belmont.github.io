@@ -766,6 +766,7 @@
 
 .custom-context-menu {
   position: absolute;
+  color: #E4E6EB;
   background-color: #212121;
   border: 1px solid #353535;
   list-style: none;
