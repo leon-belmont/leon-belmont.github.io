@@ -388,33 +388,33 @@
 }
 
 /* Tamaño del scroll */
-.scroll_chat::-webkit-scrollbar {
+.scroll_contenedor::-webkit-scrollbar {
   width: 5px;
 }
 
  /* Estilos barra (thumb) de scroll */
-.scroll_chat::-webkit-scrollbar-thumb {
+.scroll_contenedor::-webkit-scrollbar-thumb {
   background: #ccc;
   border-radius: 0px;
 }
 
-.scroll_chat::-webkit-scrollbar-thumb:active {
+.scroll_contenedor::-webkit-scrollbar-thumb:active {
   background-color: #999999;
 }
 
-.scroll_chat::-webkit-scrollbar-thumb:hover {
+.scroll_contenedor::-webkit-scrollbar-thumb:hover {
   background: #b3b3b3;
   box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
 }
 
  /* Estilos track de scroll */
-.scroll_chat::-webkit-scrollbar-track {
+.scroll_contenedor::-webkit-scrollbar-track {
   background: transparent;
   border-radius: 0px;
 }
 
-.scroll_chat::-webkit-scrollbar-track:hover, 
-.scroll_chat::-webkit-scrollbar-track:active {
+.scroll_contenedor::-webkit-scrollbar-track:hover, 
+.scroll_contenedor::-webkit-scrollbar-track:active {
   /*background: #d4d4d4;*/
 }
 
@@ -446,37 +446,6 @@
 
 .scroll_menu_emoji_sticker_gif::-webkit-scrollbar-track:hover, 
 .scroll_menu_emoji_sticker_gif::-webkit-scrollbar-track:active {
-  /*background: #d4d4d4;*/
-}
-
-/* Tamaño del scroll */
-.scroll_contenedor_emoji_sticker_gif::-webkit-scrollbar {
-  width: 5px;
-}
-
- /* Estilos barra (thumb) de scroll */
-.scroll_contenedor_emoji_sticker_gif::-webkit-scrollbar-thumb {
-  background: #ccc;
-  border-radius: 0px;
-}
-
-.scroll_contenedor_emoji_sticker_gif::-webkit-scrollbar-thumb:active {
-  background-color: #999999;
-}
-
-.scroll_contenedor_emoji_sticker_gif::-webkit-scrollbar-thumb:hover {
-  background: #b3b3b3;
-  box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
-}
-
- /* Estilos track de scroll */
-.scroll_contenedor_emoji_sticker_gif::-webkit-scrollbar-track {
-  background: transparent;
-  border-radius: 0px;
-}
-
-.scroll_contenedor_emoji_sticker_gif::-webkit-scrollbar-track:hover, 
-.scroll_contenedor_emoji_sticker_gif::-webkit-scrollbar-track:active {
   /*background: #d4d4d4;*/
 }
 
