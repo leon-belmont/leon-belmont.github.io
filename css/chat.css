@@ -409,7 +409,7 @@
 
  /* Estilos track de scroll */
 .scroll_chat::-webkit-scrollbar-track {
-  background: #FFFFFF;
+  background: transparent;
   border-radius: 0px;
 }
 
@@ -471,7 +471,7 @@
 
  /* Estilos track de scroll */
 .scroll_contenedor_emoji_sticker_gif::-webkit-scrollbar-track {
-  background: #1e2428;
+  background: transparent;
   border-radius: 0px;
 }
 
