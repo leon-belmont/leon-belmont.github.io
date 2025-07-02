@@ -833,8 +833,14 @@
 .btn-cerrar {
   margin-top: 10px;
   cursor: pointer;
+  padding: 0.55em 1em 0.55em;
+  width: auto;
+  font-size: 1.5em;
 }
 
 .btn-desbanear[disabled] {
   cursor: not-allowed;
+  padding: 0.55em 1em 0.55em;
+  width: auto;
+  font-size: 1.5em;
 }
